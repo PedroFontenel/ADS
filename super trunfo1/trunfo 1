@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main (){
+
+    char país[15], estado[15], codigo[2], cidade[15];
+    int população, pontoturistico;
+    float area, pib;
+
+    printf("Qual o nome do país a ser atribuido para a carta? \n");
+    scanf("%s", &país [15]);
+
+    return 0;
+
+
+
+
+
+
+
+
+
+}
