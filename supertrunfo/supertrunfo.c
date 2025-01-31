@@ -2,7 +2,7 @@
 
 int main(){
 /*
-     Jogo SUPER TRUNFO (TechNova)
+     Jogo SUPER TRUNFO 
 
      TEMA: Países
 
@@ -12,8 +12,12 @@ int main(){
 
      País - Estado - Código da carta - Nome da cidade - População - PIB - Área - Quantidade de pontos turísticos - Densidade populacional - PIB per capita
     
-*/ 
-    int codigo; // do 1 ao 4
+*/
+    #define total_estado 8
+    #define cidade_por_estado 4
+
+    char codigo[4]; // código da carta (ex: A01, B02, etc.)
+    char estados[total_estado] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
 
     printf("Registre o codigo dessa carta: \n"); 
     scanf("%i", &codigo);

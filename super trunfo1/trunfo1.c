@@ -32,6 +32,30 @@ printf("Parabens, carta cadastrada com sucesso \n Codígo da carta: %i\n", codig
     printf("PIB per capita: %f\n", PIBpercapita);
     printf("Densidade populacional: %d\n", densidadepopulacional);
 
+        printf("Agora, qual o numero de pontos turisticos dessa cidade: \n");
+    scanf("%d", &Pturistico);
+
+    printf("Poderia me informar a area dessa cidade: \n");
+    scanf("%f", &area);
+
+    printf("Agora qual o PIB dessa cidade: \n");
+    scanf("%f", &PIB);
+
+    printf("Agora gostaria que voçê me falasse o PIB per capita dessa cidade: \n");
+    scanf("%f", &PIBpercapita);
+
+    printf("Por fim, gostaria que voçê me falasse a densidade populacional dessa cidade: \n");
+    scanf("%d", &densidadepopulacional);
+
+    printf("\nAgora gostaria que você me falasse o PIB per capita dessa cidade: \n");
+    scanf("%f", &PIBpercapita);
+
+    printf("\nPor fim, gostaria que você me falasse a densidade populacional dessa cidade: \n");
+    scanf("%f", &densidadepopulacional);
+
+    printf("PIB per capita: %.2f\n", PIBpercapita);
+    printf("Densidade populacional: %.2f\n", densidadepopulacional);
+
 
     return 0;
 
